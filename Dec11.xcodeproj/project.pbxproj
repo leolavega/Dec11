@@ -20,12 +20,12 @@
 		9A3C4ED016825450002A310E /* ViewNov1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C4ECF16825450002A310E /* ViewNov1.m */; };
 		9A3C4ED3168255A2002A310E /* ViewNov15.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C4ED2168255A2002A310E /* ViewNov15.m */; };
 		9A3C4ED61682560E002A310E /* SmallBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C4ED51682560E002A310E /* SmallBox.m */; };
-		9A3C4EFE16825894002A310E /* ColorContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C4EFD16825894002A310E /* ColorContainer.m */; };
 		9A3C4F01168258D9002A310E /* ViewNov29.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C4F00168258D9002A310E /* ViewNov29.m */; };
 		9A3C4F0416825B68002A310E /* Ball.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C4F0316825B68002A310E /* Ball.m */; };
 		9A3C4F0716825BA4002A310E /* ViewDec6.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C4F0616825BA4002A310E /* ViewDec6.m */; };
 		9A3C4F0D16825E5D002A310E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A3C4F0C16825E5D002A310E /* QuartzCore.framework */; };
 		9A69D8A5168280AD00487763 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A69D8A3168280AD00487763 /* Localizable.strings */; };
+		9AEBC3F7168286AB008EE953 /* ColorContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEBC3F6168286AB008EE953 /* ColorContainer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,8 +51,6 @@
 		9A3C4ED2168255A2002A310E /* ViewNov15.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewNov15.m; sourceTree = "<group>"; };
 		9A3C4ED41682560E002A310E /* SmallBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallBox.h; sourceTree = "<group>"; };
 		9A3C4ED51682560E002A310E /* SmallBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmallBox.m; sourceTree = "<group>"; };
-		9A3C4EFC16825894002A310E /* ColorContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorContainer.h; path = ../../Nov29/Nov29/ColorContainer.h; sourceTree = "<group>"; };
-		9A3C4EFD16825894002A310E /* ColorContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorContainer.m; path = ../../Nov29/Nov29/ColorContainer.m; sourceTree = "<group>"; };
 		9A3C4EFF168258D9002A310E /* ViewNov29.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewNov29.h; sourceTree = "<group>"; };
 		9A3C4F00168258D9002A310E /* ViewNov29.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewNov29.m; sourceTree = "<group>"; };
 		9A3C4F0216825B68002A310E /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ball.h; path = ../../Dec6/Dec6/Ball.h; sourceTree = "<group>"; };
@@ -62,6 +60,8 @@
 		9A3C4F0C16825E5D002A310E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		9A69D8A4168280AD00487763 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9A69D8A7168280EF00487763 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9AEBC3F5168286AB008EE953 /* ColorContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorContainer.h; sourceTree = "<group>"; };
+		9AEBC3F6168286AB008EE953 /* ColorContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorContainer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,8 +152,8 @@
 		9AD9EF9D16826FF800113DA7 /* Nov29 */ = {
 			isa = PBXGroup;
 			children = (
-				9A3C4EFC16825894002A310E /* ColorContainer.h */,
-				9A3C4EFD16825894002A310E /* ColorContainer.m */,
+				9AEBC3F5168286AB008EE953 /* ColorContainer.h */,
+				9AEBC3F6168286AB008EE953 /* ColorContainer.m */,
 				9A3C4EFF168258D9002A310E /* ViewNov29.h */,
 				9A3C4F00168258D9002A310E /* ViewNov29.m */,
 			);
@@ -263,10 +263,10 @@
 				9A3C4ED016825450002A310E /* ViewNov1.m in Sources */,
 				9A3C4ED3168255A2002A310E /* ViewNov15.m in Sources */,
 				9A3C4ED61682560E002A310E /* SmallBox.m in Sources */,
-				9A3C4EFE16825894002A310E /* ColorContainer.m in Sources */,
 				9A3C4F01168258D9002A310E /* ViewNov29.m in Sources */,
 				9A3C4F0416825B68002A310E /* Ball.m in Sources */,
 				9A3C4F0716825BA4002A310E /* ViewDec6.m in Sources */,
+				9AEBC3F7168286AB008EE953 /* ColorContainer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
